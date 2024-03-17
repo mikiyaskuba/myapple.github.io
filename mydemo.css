@@ -1,0 +1,261 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.one,
+.two,
+.three,
+.four {
+	padding-left: 0;
+	padding-right: 0;
+}
+/* .one {
+	background-color: blue;
+}
+.two {
+	background-color: green;
+}
+.three {
+	background-color: yellow;
+}
+.four {
+	background-color: red;
+}
+.five {
+	background-color: aqua;
+}
+.six {
+	background-color: violet;
+}
+.seven {
+	background-color: blue;
+} */
+.cf {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+/* .one-bg {
+	background: url(images/home/macbook-pro.jpg);
+	background-position-x: center;
+	background-position-y: bottom;
+	background-repeat: no-repeat;
+	background-color: #fafafa;
+	height: 580px;
+} */
+.one-bg .links ul {
+	display: flex;
+	justify-content: center;
+}
+.one-bg .links ul li {
+	list-style: none;
+	font-size: 25px;
+}
+.one-bg .links ul li a {
+	text-decoration: none;
+}
+/* second div */
+.two-bg {
+	background: url(images/home/iphone11-pro-bg.jpg);
+	background-position-x: center;
+	background-position-y: bottom;
+	background-repeat: no-repeat;
+	background-color: #fafafa;
+	height: 480px;
+
+	padding-top: 50px;
+}
+.two-bg .links ul {
+	display: flex;
+	justify-content: center;
+}
+.two-bg .links ul li {
+	list-style: none;
+	font-size: 25px;
+}
+.two-bg .links ul li a {
+	text-decoration: none;
+}
+
+/* threed div */
+.three-bg {
+	background: url(images/home/iphone11-bg.jpg);
+	background-position-x: center;
+	background-position-y: bottom;
+	background-repeat: no-repeat;
+	background-color: #fafafa;
+	height: 480px;
+}
+.three-bg .links ul {
+	display: flex;
+	justify-content: center;
+}
+.three-bg .links ul li {
+	list-style: none;
+	font-size: 25px;
+}
+.three-bg .links ul li a {
+	text-decoration: none;
+}
+/* four */
+.four-bg {
+	background: url(images/home/watch-lg.jpg);
+	background-position-x: center;
+	background-position-y: bottom;
+	background-repeat: no-repeat;
+	background-color: #fafafa;
+	height: 580px;
+}
+.four-bg .links ul {
+	display: flex;
+	justify-content: center;
+}
+.four-bg .links ul li {
+	list-style: none;
+	font-size: 25px;
+}
+.four-bg .links ul li a {
+	text-decoration: none;
+}
+/* five */
+.five-bg {
+	background: url(images/home/apple-card-monthly.jpg);
+	background-position-x: center;
+	background-position-y: bottom;
+	background-repeat: no-repeat;
+	background-color: #fafafa;
+	height: 480px;
+}
+.five-bg .links ul {
+	display: flex;
+	justify-content: center;
+}
+.five-bg .links ul li {
+	list-style: none;
+	font-size: 25px;
+}
+.five-bg .links ul li a {
+	text-decoration: none;
+}
+/* six */
+.six-bg {
+	background: url(images/home/apple-tv-background.jpg);
+	background-position-x: center;
+	background-repeat: no-repeat;
+	background-color: #fafafa;
+	height: 580px;
+}
+.six-bg .links ul {
+	display: flex;
+	justify-content: center;
+}
+.six-bg .links ul li {
+	list-style: none;
+	font-size: 25px;
+}
+.six-bg .links ul li a {
+	text-decoration: none;
+}
+.wacth {
+	padding-top: 300px;
+}
+/* seven */
+.seven-bg {
+	background: url(images/home/air-pods.jpg);
+	background-position-x: center;
+	background-position-y: bottom;
+	background-repeat: no-repeat;
+	background-color: #000000;
+	height: 580px;
+}
+.seven-bg .links ul {
+	display: flex;
+	justify-content: center;
+}
+.seven-bg .links ul li {
+	list-style: none;
+	font-size: 25px;
+}
+.seven-bg .links ul li a {
+	text-decoration: none;
+}
+
+/* Eight */
+.Eight-bg {
+	background: url(images/home/macbook-pro.jpg);
+	background-position-x: center;
+	background-position-y: bottom;
+	background-repeat: no-repeat;
+	background-color: #fafafa;
+	height: 580px;
+}
+.Eight-bg .links ul {
+	display: flex;
+	justify-content: center;
+}
+.Eight-bg .links ul li {
+	list-style: none;
+	font-size: 25px;
+}
+.Eight-bg .links ul li a {
+	text-decoration: none;
+}
+/* nine */
+.nine-bg {
+	background: url(images/home/new-ipad.jpg);
+	background-position-x: center;
+	background-position-y: bottom;
+	background-repeat: no-repeat;
+	background-color: #fafafa;
+	height: 580px;
+}
+.nine-bg .links ul {
+	display: flex;
+	justify-content: center;
+}
+.nine-bg .links ul li {
+	list-style: none;
+	font-size: 25px;
+}
+.nine-bg .links ul li a {
+	text-decoration: none;
+}
+/* media query */
+@media (min-width: 768px) {
+	/* .one-bg {
+		background: url(images/home/mac-laptop.jpg);
+		background-position-x: center;
+		background-position-y: bottom;
+		background-repeat: no-repeat;
+		background-color: #fafafa;
+		height: 580px;
+	} */
+	.three-bg {
+		background: url(images/home/iphone11-bg.jpg);
+		background-position-x: center;
+		background-position-y: bottom;
+		background-repeat: no-repeat;
+		background-color: #fafafa;
+		height: 580px;
+	}
+	.five-bg {
+		background: url(images/home/apple-card.jpg);
+		background-position-x: center;
+		background-position-y: bottom;
+		background-repeat: no-repeat;
+		background-color: #fafafa;
+		height: 580px;
+	}
+}
+
+/* second media query */
+@media (min-width: 992px) {
+	.five-bg {
+		background: url(images/home/apple-card-monthly-lg.jpg);
+		background-position-x: center;
+		background-position-y: bottom;
+		background-repeat: no-repeat;
+		background-color: #fafafa;
+		height: 580px;
+	}
+}
